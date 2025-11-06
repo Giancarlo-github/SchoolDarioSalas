@@ -12,7 +12,27 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
   --bs-text-opacity: 1;
   color: mediumslateblue !important;
 }
-/**/
+
+/*Button scrolltop*/
+.btn-scrolltop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    background: mediumslateblue !important;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    cursor: pointer;
+    transform: translateY(100px);
+    transition: 0.3s;
+
+}
+
+.btn-scrolltop-on {
+    transform: translateY(0);
+}
+/*navbar*/
 .navbar {
     background-color: mediumslateblue !important;
     border: none !important;
@@ -37,7 +57,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     left: 50%;
     transform: translatex(-50%);
   }
-/**/
+/*carousel*/
 .carousel img {
   top: 0;
  margin-bottom: 0px;
@@ -47,7 +67,25 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
   width: 320px;
   max-width: none;
 }
-
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: mediumslateblue !important;
+}
+.carousel-control-prev-icon 
+{
+    width: 84px;
+    height: 84px; 
+}
+    
+.carousel-control-next-icon
+{
+    width: 84px;
+    height: 84px;
+    
+}
+/*Button*/
 .purple {
     background-color:  mediumslateblue !important;
     color: #fff

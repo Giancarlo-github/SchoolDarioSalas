@@ -40,7 +40,13 @@ svg{
 svg:hover{
   fill:mediumslateblue !important;
 }
-
+/*Card*/
+.card{
+    transition: all 0.3s;
+}
+.card:hover{
+    transform: scale(1.1)
+}
 /*navbar*/
 .navbar {
     background-color: mediumslateblue !important;

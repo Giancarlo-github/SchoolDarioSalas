@@ -16,6 +16,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
               crossorigin="anonymous" />
     </head>
     <body>
+        
+        <audio controls autoplay>
+  <source src="music/Illapu - Cacharpaya Del Pasiri (Audio).mp3" type="audio/mpeg">
+
+Your browser does not support the audio element.
+</audio>
+        
+        <div id="contenedor">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
      <!--button up  -->
         <button class="btn-scrolltop" id="btn_scrolltop">
@@ -47,11 +55,11 @@ function pageScroll() {
     var scrolled = (winScroll / height) * 100;
     document.getElementById("proBar").style.width = scrolled + "%";
 }
-
    
-
     </script>
 
+    <header>
+ <!--Navbar -->
 <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
       
@@ -64,19 +72,13 @@ function pageScroll() {
 
 
 <a href="https://www.google.com/maps/place/Escuela+Dar%C3%ADo+Salas+D%C3%ADaz+(F-3)/@-18.5006097,-70.2544275,17z/data=!3m1!4b1!4m6!3m5!1s0x915007f7962a93e5:0xccffe47c2cc8a5c6!8m2!3d-18.5006097!4d-70.2544275!16s%2Fg%2F11g71d57fg?entry=ttu&g_ep=EgoyMDI1MTEwMi4wIKXMDSoASAFQAw%3D%3D" class="btn btn-raised shadow my-button w-xs purple" target="_blank" rel="noopener noreferrer">
-   <!-- <button type="button" class="btn btn-danger">   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">   -->
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill"  viewBox="0 0 16 16">
   <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
 </svg>
-   <!-- </button> -->
 </a>&nbsp;Av. Senador Humberto Palza Corvacho 6351, Arica
-
-
     </span>
   </div>
 </nav>
-  
-
        <!--Navbar -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container justify-content-center"> 
@@ -90,33 +92,39 @@ function pageScroll() {
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="btn btn-outline-light btn-floating m-1" aria-current="page" href="#">Inicio</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="btn btn-outline-light btn-floating m-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Historia
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="btn btn-outline-light btn-floating m-1" href="historia.html">Historia</a></li>
-                                    <li><a class="btn btn-outline-light btn-floating m-1" href="#">Misión y visión</a></li>
-                                </ul>
+                                <a class="btn btn-outline-light btn-floating m-1" aria-current="page" href="index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="btn btn-outline-light btn-floating m-1" href="#">Estamento</a>
+                                <a class="btn btn-outline-light btn-floating m-1" href="misionyvision.html">Misión y visión</a>
+                            </li>
+                           <!--   <li class="nav-item dropdown">
+                                  
+                                        <a class="btn btn-outline-light btn-floating m-1" href="misionyvision.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Misión y visión
+                                </a>
+                               
+                              <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="misionyvision.html">Historia</a></li>
+                                     <li><hr class="dropdown-divider"></li>
+                                   <li><a class="dropdown-item" href="#">Misión y visión</a></li>                                
+                                </ul> 
+                            </li>  -->
+                            <li class="nav-item">
+                                <a class="btn btn-outline-light btn-floating m-1" href="estamento.html">Estamento</a>
                             </li>
                             <li class="nav-item">
                                 <a class="btn btn-outline-light btn-floating m-1" href="#">Docentes</a>
                             </li> 
                             <li class="nav-item">
                                 <a class="btn btn-outline-light btn-floating m-1" href="#">Academias</a>
-                            </li> 
+                            </li>
+                             
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
-
-
+</header>
         <!..<!-- Carousel -->
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-indicators">
@@ -147,9 +155,10 @@ function pageScroll() {
             </button>
           
         </div>
-<!--Información -->
+<!--Noticias -->
+<section id="general">
           <div class="container justify-content-center"> 
-                <h1>Información</h1>
+                <h1>Noticias</h1>
             </div>
            <div class="album py-1 bg-body-tertiary">
                <div class="container">
@@ -161,7 +170,7 @@ function pageScroll() {
                         <div class="card-body">
                             <h5 class="card-title">¡Con enorme alegría compartimos que se challaron las nuevas indumentarias e instrumentos musicales de nuestros queridos Lakitas Darianos! </h5>
                              Publicado el : 4-11-2025
-                            <a href="#"  target="_blank" rel="noopener noreferrer" class="btn btn-raised shadow my-button w-xs purple">Leer</a>
+                            <a href="noticia1.html" class="btn btn-raised shadow my-button w-xs purple">Leer</a>
                         </div>
                     </div>
                 </div>
@@ -188,6 +197,38 @@ function pageScroll() {
                     </div>
                 </div>
             
+             <!--    <div class="col">
+                    <div class="card" style="width: 18rem;">
+              <img src="images/card4-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Registro Fotográfico – Feria de Salud Mental 2025</h5>
+                           Publicado el : 3-11-2025
+                            <a href=""  target="_blank" rel="noopener noreferrer" class="btn btn-raised shadow my-button w-xs purple">Leer</a>
+                        </div>
+                    </div>
+                </div>
+            
+                 <div class="col">
+                    <div class="card" style="width: 18rem;">
+              <img src="images/card5-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Registro Fotográfico – Feria de Salud Mental 2025</h5>
+                           Publicado el : 3-11-2025
+                            <a href=""  target="_blank" rel="noopener noreferrer" class="btn btn-raised shadow my-button w-xs purple">Leer</a>
+                        </div>
+                    </div>
+                </div>
+            
+                 <div class="col">
+                    <div class="card" style="width: 18rem;">
+              <img src="images/card6-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Registro Fotográfico – Feria de Salud Mental 2025</h5>
+                           Publicado el : 3-11-2025
+                            <a href=""  target="_blank" rel="noopener noreferrer" class="btn btn-raised shadow my-button w-xs purple">Leer</a>
+                        </div>
+                    </div>
+                </div> -->
             
                <!--Sección youtube -->
   <div class="container justify-content-center"> 
@@ -203,6 +244,7 @@ function pageScroll() {
                             <a href="https://www.youtube.com/@dariotvelcanaldelvalle9598"  target="_blank" rel="noopener noreferrer" class="btn btn-raised shadow my-button w-xs purple">Ir al canal</a>
                         </div>
                     </div>
+                   
                 </div>
                   <div class="col">                 
                    <div class="card" style="width: 18rem;">
@@ -214,14 +256,50 @@ function pageScroll() {
                             <a href="https://www.youtube.com/@dariotvelcanaldelvalle9598"  target="_blank" rel="noopener noreferrer" class="btn btn-raised shadow my-button w-xs purple">Ir al canal</a>
                         </div>
                     </div>
+                  </div>
+               <!--
+                     <div class="col">                 
+                   <div class="card" style="width: 18rem;">
+                       <iframe width="287" height="300" src="https://www.youtube.com/embed/hqaUXv8t85M" title="La historia de Halloween" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                               <div class="text-primary">La historia de Halloween</div>
+                            <h5 class="card-title">En este video conoceremos la verdadera historia de Halloween</h5>
 
+                            <a href="https://www.youtube.com/@dariotvelcanaldelvalle9598"  target="_blank" rel="noopener noreferrer" class="btn btn-raised shadow my-button w-xs purple">Ir al canal</a>
+                        </div>
+                    </div>
                 </div>
+               
+                         <div class="col">                 
+                   <div class="card" style="width: 18rem;">
+                       <iframe width="287" height="300" src="https://www.youtube.com/embed/hqaUXv8t85M" title="La historia de Halloween" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                               <div class="text-primary">La historia de Halloween</div>
+                            <h5 class="card-title">En este video conoceremos la verdadera historia de Halloween</h5>
+
+                            <a href="https://www.youtube.com/@dariotvelcanaldelvalle9598"  target="_blank" rel="noopener noreferrer" class="btn btn-raised shadow my-button w-xs purple">Ir al canal</a>
+                        </div>
+                    </div>
+                </div>
+               
+                         <div class="col">                 
+                   <div class="card" style="width: 18rem;">
+                       <iframe width="287" height="300" src="https://www.youtube.com/embed/hqaUXv8t85M" title="La historia de Halloween" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                               <div class="text-primary">La historia de Halloween</div>
+                            <h5 class="card-title">En este video conoceremos la verdadera historia de Halloween</h5>
+
+                            <a href="https://www.youtube.com/@dariotvelcanaldelvalle9598"  target="_blank" rel="noopener noreferrer" class="btn btn-raised shadow my-button w-xs purple">Ir al canal</a>
+                        </div>
+                    </div>
+                </div>  -->
        
            
         </div>
-</div>
+</div></div>
                
          <!-- Footer -->
+         <div id="footer">
   <footer
           class="text-center text-lg-start text-white"
           style="background-color: mediumslateblue !important;"
@@ -259,6 +337,13 @@ function pageScroll() {
            role="button"
            ><i class="fab fa-linkedin-in"></i
           ></a>
+            <!-- Instagram -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-instagram"></i
+          ></a>
 
       </section>
       <!-- Section: Social media -->
@@ -275,8 +360,9 @@ function pageScroll() {
     </div>
     <!-- Copyright -->
   </footer>
+         </div>
   <!-- Footer -->     
        
-
+</div>
     </body>
 </html>

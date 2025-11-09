@@ -7,12 +7,40 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : gianc
 */
 
+
 .text-primary {
    font-size: 28px;
   --bs-text-opacity: 1;
   color: mediumslateblue !important;
 }
+#contenedor{
+    margin: auto;
+    background: white;
+    overflow: hidden;
+    height: auto;
+   
+   
+}
+/*header*/
 
+/*contenido*/
+ #contenido {
+	background-color: white;
+	width: 500px;
+        height: 300px;
+	margin: auto;
+        margin-top: 320px;
+        margin-bottom: 60px;
+        float: center;
+        
+}
+/*footer*/
+ div#footer {
+          background-color: red;
+	clear: both;
+	margin: auto;
+        
+}
 /*Button scrolltop*/
 .btn-scrolltop {
     position: fixed;
@@ -71,6 +99,7 @@ svg:hover{
     left: 50%;
     transform: translatex(-50%);
   }
+ 
   .navbar-toggler-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
       
@@ -81,6 +110,8 @@ svg:hover{
   .navbar-toggler:focus{
       box-shadow: none;
   }
+
+ 
 /*carousel*/
 .carousel img {
   top: 0;

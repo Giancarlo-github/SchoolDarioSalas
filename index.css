@@ -216,3 +216,23 @@ a:hover::after {
   top: 0;
   
 }
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+html {
+ min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+     position: absolute;
+    margin-top: 41px;
+  display: table;
+  width: 100%;
+  text-align: center;
+  
+}

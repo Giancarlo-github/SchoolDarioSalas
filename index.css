@@ -13,34 +13,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
   --bs-text-opacity: 1;
   color: mediumslateblue !important;
 }
-#contenedor{
-    margin: auto;
-    background: white;
-    overflow: hidden;
-    height: auto;
-   
-   
-}
-/*header*/
 
-/*contenido*/
- #contenido {
-	background-color: white;
-	width: 500px;
-        height: 300px;
-	margin: auto;
-        margin-top: 320px;
-        margin-bottom: 60px;
-        float: center;
-        
-}
-/*footer*/
- div#footer {
-          background-color: red;
-	clear: both;
-	margin: auto;
-        
-}
 /*Button scrolltop*/
 .btn-scrolltop {
     position: fixed;
@@ -68,11 +41,24 @@ svg{
 svg:hover{
   fill:mediumslateblue !important;
 }
+
 /*Card*/
 .card{
     transition: all 0.3s;
 }
 .card:hover{
+    transform: scale(1.1)
+}
+/*Card2*/
+.card2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*CardGallery*/
+.cardGallery{
+    transition: all 0.3s;
+}
+.cardGallery:hover{
     transform: scale(1.1)
 }
 /*navbar*/
@@ -110,8 +96,13 @@ svg:hover{
   .navbar-toggler:focus{
       box-shadow: none;
   }
-
- 
+/*carousel-2*/
+  .carousel-indicators2 [data-bs-target] {
+  border-radius: 0%;
+  width: 185px;
+  height: 185px;
+  background-color: mediumslateblue !important;
+}
 /*carousel*/
 .carousel img {
   top: 0;

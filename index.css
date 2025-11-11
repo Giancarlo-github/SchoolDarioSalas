@@ -216,7 +216,15 @@ a:hover::after {
   top: 0;
   
 }
-
+/*Buttons docentes*/
+.btn-docentes{
+    width: 300px;
+    height: 150px;
+    font-size: 25px;
+    background-color: blueviolet;
+    color: white;
+   margin-top: 20px;
+}
 body {
   margin: 0;
   margin-bottom: 40px;

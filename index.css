@@ -11,7 +11,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 .text-primary {
    font-size: 28px;
   --bs-text-opacity: 1;
-  color: mediumslateblue !important;
+  color: #66074c !important;
 }
 
 /*Button scrolltop*/
@@ -20,7 +20,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     bottom: 20px;
     right: 20px;
     padding: 15px 20px;
-    background: mediumslateblue !important;
+    background: #66074c !important;
     color: white;
     border: 1px solid white;
     border-radius: 100%;
@@ -39,7 +39,7 @@ svg{
     
 }
 svg:hover{
-  fill:mediumslateblue !important;
+  fill:#66074c !important;
 }
 
 /*Card*/
@@ -61,18 +61,24 @@ svg:hover{
 .cardGallery:hover{
     transform: scale(1.1)
 }
+/*Barra navbar superior e inferior*/
+.d-flex{
+   height: 10px;
+   background-color: goldenrod; 
+}
 /*navbar*/
 .navbar {
-    background-color: mediumslateblue !important;
+    background-color: #66074c !important;
     border: none !important;
     border-width:0!important;
   z-index: 1;
   height: 98px;
+ 
 }
 
 .navbar-brand:hover {
     background-color: white !important;
-    color: mediumslateblue !important;
+    color: #66074c !important;
 
 }
 
@@ -82,11 +88,13 @@ svg:hover{
     transform: translatex(-50%);
    float: none !important;
   margin: auto !important;
+  
 }
 .navbar ul li a{
     color: #fff;
     font-size: 22px;
-     background-color:  mediumslateblue !important;
+     background-color:  #66074c !important;
+     
 }
 .navbar-center {
     position: absolute;
@@ -105,13 +113,38 @@ svg:hover{
       box-shadow: none;
   }
   
+   .navbar .navbar-nav .navbar-brand {
+    color: #fff;
+    font-size: 1.1em;
+    height: 60px;
+    margin: auto;
+}
+.navbar .navbar-nav .navbar-brand:hover{
+    color: #808080;
+}
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-item .navbar-brand {
+    padding: 0 0.5em;
+  }
+  .navbar .navbar-nav .nav-item:not(:last-child) .navbar-brand {
+    border-right: 2px solid #fff;
+  }
+}
+
+#navbarToggleExternalContent{
+    background-color: #66074c; 
+    color: white;
+}
+  #text-external-navbar {
+  color: white;
+}
 
 /*carousel-2*/
   .carousel-indicators2 [data-bs-target] {
   border-radius: 0%;
   width: 185px;
   height: 185px;
-  background-color: mediumslateblue !important;
+  background-color: #66074c !important;
 }
 /*carousel*/
 .carousel img {
@@ -127,7 +160,7 @@ svg:hover{
   border-radius: 50%;
   width: 25px;
   height: 25px;
-  background-color: mediumslateblue !important;
+  background-color: #66074c !important;
 }
 .carousel-control-prev-icon 
 {
@@ -189,11 +222,12 @@ svg:hover{
     margin-bottom: .5rem!important
 }
 .purple {
-    background-color:  mediumslateblue !important;
+    background-color:  #66074c !important;
     color: #fff;
   
     
 }
+
 /*Button*/
 a {
   text-decoration: none;
@@ -215,7 +249,7 @@ a::after {
 }
 
 a:hover {
-  color: mediumslateblue !important;
+  color: #66074c !important;
 }
 
 a:hover::after {
@@ -230,12 +264,12 @@ a:hover::after {
     width: 300px;
     height: 150px;
     font-size: 25px;
-    background-color: blueviolet;
+    background-color: #66074c;
     color: white;
    margin-top: 20px;
 }
 .btn-docentes:hover{
-    color:  mediumslateblue !important;
+    color:  #66074c !important;
 }
 
 body {
@@ -250,6 +284,7 @@ html {
   flex-direction: column;
 }
 footer {
+    background-color: #66074c !important; 
      position: absolute;
     margin-top: 41px;
   display: table;

@@ -305,6 +305,26 @@ a:hover::after {
 .btn-docentes:hover{
     color:  #66074c !important;
 }
+/*Form*/
+.dflex-form {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Ejemplo de altura para que se vea el centrado vertical */
+/*  height: 100vh;*/
+height: 600px;
+    background-color: white;
+    
+}
+.p-4{
+    background-color: #66074c;
+    border-color: goldenrod;
+}
+
+.form-check-input:checked{
+    background-color: #66074c;
+    
+}
 
 body {
   margin: 0;
@@ -320,7 +340,7 @@ html {
 footer {
     background-color: #66074c !important; 
      position: absolute;
-    margin-top: 41px;
+    margin-top: 40px;
   display: table;
   width: 100%;
   text-align: center;

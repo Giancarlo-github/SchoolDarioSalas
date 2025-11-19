@@ -14,7 +14,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 }
 @media (max-width: 600px) {
     .logo-container img {
-        width: 100px; /* Ancho más pequeño en pantallas pequeñas */
+        width: 60px; /* Ancho más pequeño en pantallas pequeñas */
     }
 }
 /* The Modal (background) */

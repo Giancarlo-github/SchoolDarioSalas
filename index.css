@@ -7,6 +7,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : giancarlo
 */
 
+.logo-container img {
+    width: 150px; /* Ancho inicial */
+    max-width: 100%; /* Ancho máximo para responsividad */
+    height: auto; /* Mantiene la proporción */
+}
+@media (max-width: 600px) {
+    .logo-container img {
+        width: 100px; /* Ancho más pequeño en pantallas pequeñas */
+    }
+}
 /* The Modal (background) */
 .modal {
  

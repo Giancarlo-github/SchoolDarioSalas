@@ -6,7 +6,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Created on : 05-11-2025, 12:48:54 p. m.
     Author     : giancarlo
 */
-
+.clase-mi-audio {
+  width: 105px;
+  /* Otros estilos de diseño */
+}
 /*Logos*/
 .logo-container img {
     width: 150px; /* Ancho inicial */

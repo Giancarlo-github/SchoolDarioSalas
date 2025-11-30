@@ -10,7 +10,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 @import url('https://fonts.googleapis.com/css?family=Exo:700');
 @import url('https://fonts.googleapis.com/css?family=Abel');
 
-
 #body {
     background-color: #dfe6e9;
     -webkit-transform: perspective(900px);
@@ -562,7 +561,7 @@ a:hover::after {
 
 body {
     margin: 0;
-    margin-bottom: 40px;
+/*    margin-bottom: 40px;*/
 }
 
 html {
@@ -578,5 +577,9 @@ footer {
     display: table;
     width: 100%;
     text-align: center;
+    z-index: -1;
 
 }
+
+
+

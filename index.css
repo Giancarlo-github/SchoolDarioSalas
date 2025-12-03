@@ -9,7 +9,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 @import url('https://fonts.googleapis.com/css?family=Exo:700');
 @import url('https://fonts.googleapis.com/css?family=Abel');
-
+h1{
+   color: #66074c;
+}
+.card-title{
+    color: #66074c;
+}
 #body {
     background-color: #dfe6e9;
     -webkit-transform: perspective(900px);

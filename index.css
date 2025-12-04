@@ -586,5 +586,29 @@ footer {
 
 }
 
+.logo-container2  {
+    width: 100%; /* Ancho inicial */
+    max-width: 100%; /* Ancho máximo para responsividad */
+    height: 100px;; /* Mantiene la proporción */
+    background-color: #66074c;
+}
+/*@media (max-width: 600px) {
+    .logo-container2  {
+        width: 100%;  Ancho más pequeño en pantallas pequeñas 
+    }
+}*/
 
+.container2 {
+ aspect-ratio: 9 / 16;
+}
 
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}

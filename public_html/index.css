@@ -612,16 +612,20 @@ footer {
 
 /* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
-  position: absolute;
+/*  position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  right: 0;
+  right: 0;*/
   width: 100%;
-  height: 100%;
+  height: 280px;
   
 }
 /*Zoom*/
+ #zoomtext {
+                transform: scale(1);
+                transition: transform 0.2s ease-in-out;
+            }
 .image-zoom-container {
     overflow: hidden; /* Oculta la parte que se sale al hacer zoom */
    

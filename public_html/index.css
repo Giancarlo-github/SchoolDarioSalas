@@ -149,21 +149,21 @@ h3{
 @media (max-width: 600px) {
     .card3 {
         width: 190px;
-        left: 0px;
+        left: -20px;
     }
 }
 
 @media (max-width: 600px) {
     .card4 {
         width: 190px;
-        left: 120px;
+        left: 90px;
     }
 }
 
 @media (max-width: 600px) {
     .card5 {
         width: 210px;
-        left: 220px;
+        left: 200px;
     }
 }
 @media (max-width: 600px) {
@@ -654,3 +654,4 @@ footer {
   display: block;
   
 }
+

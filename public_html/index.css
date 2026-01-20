@@ -596,7 +596,7 @@ footer {
 .logo-container2  {
     width: 100%; /* Ancho inicial */
     max-width: 100%; /* Ancho máximo para responsividad */
-    height: 100px;; /* Mantiene la proporción */
+    height: 100%; /* Mantiene la proporción */
     background-color: #66074c;
 }
 /*@media (max-width: 600px) {
